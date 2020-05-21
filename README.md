@@ -6,3 +6,10 @@ This is a Spring 2020 term long image processsing and recognition challange. The
 In the first part of the challenge, color histograms and gradient orientation histograms are used as descriptors. Then, a simple Nearest Neighbor classification rule is applied on the test images. More detailed description and the results can be found in decription.pdf and report.pdf files respectively.
 
 # Part-2:
+In this part, RFS filter bank is used for feature extraction. The RFS filter bank consists of 2 anisotropic filters (an edge and a bar filter, at 6 orientations and 3 scales), and 2 rotationally symmetric ones (a Gaussian and a Laplacian of Gaussian). Then, a minimum distance classifier and a Naive Bayes classifier (with Parzen window estimation) are applied on the test images. More detailed description and the results can be found in decription.pdf and report.pdf files respectively.
+
+# Part-3:
+In this part, we are provided with the precomputed CNN features of the data same dataset. For each of the 5 categories, we train a separate SVM model. Please check report.pdf for the details of the results.
+
+# Part-4:
+To be added..
